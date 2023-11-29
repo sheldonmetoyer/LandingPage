@@ -1,0 +1,187 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'roboto', 'san-serif';
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box; */
+}
+
+a {
+    text-decoration: none;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.wrapper {
+    background: #1f2937;
+}
+
+.logo {
+    font-size: 24px;
+    color: #f9faf8;
+    font-weight: 700;
+}
+
+.hero p {
+    margin-bottom: 5px;
+}
+
+.hero p, 
+.nav li {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.hero h1 {
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: 900;
+    margin: 0;
+    margin-bottom: 5px;
+}
+/* _______________________________________________________________________________________ */
+
+.nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    margin: auto 360px;
+    gap: 230px;
+
+}
+
+.nav ul {
+    display: flex;
+    gap: 25px;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-around;
+    gap: 30px;
+    padding: 100px;
+    margin: auto 360px;
+}
+
+.hero-left {
+    flex: 1 0 400px;
+}
+
+
+.hero-right img {
+    height: 300px;
+    width: auto;
+    flex: 1;
+}
+
+
+
+.btn {
+    padding: 8px 22px;
+    border-radius: 10px;
+    color: #fff;
+    background: #3882F6;
+}
+
+.box {
+    height: 150px;
+    width: 150px;
+    border: 3px solid #3882F6;
+    border-radius: 15px;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    padding: 50px;
+    margin-bottom: 75px;
+}
+
+.card {
+    width: 150px;
+    text-align: center;
+}
+
+.card p {
+    margin-top: 5px;
+}
+
+.randomHeader {
+    text-align: center;
+    margin-top: 50px;
+}
+
+
+.quote {
+    background: #e5e7eb;
+    padding: 50px;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-weight: 400;
+    font-style: italic;
+    margin: 100px 400px 0px 400px;
+}
+
+.quote-author {
+    margin-left: 1200px;
+    margin-top: 20px;
+    padding-bottom: 100px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+
+.call2Action {
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.actionCard{
+   background: #3882F6;
+   height: 120px;
+   width: 1100px;
+   color: #fff;
+   padding: 50px;
+   border-radius: 5px;
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+}
+
+.action-button {
+    padding: 5px 20px;
+    color: #fff;
+    background: #3882F6;
+    border: 2px solid #fff;
+    border-radius: 5px;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    background: #1f2937;
+    color: #fff;
+}
